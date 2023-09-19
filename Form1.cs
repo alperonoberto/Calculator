@@ -17,7 +17,7 @@ namespace Calculadora
 
         private void button1_Click(object sender, EventArgs e)
         {
-            totalDisplay.Text += button1.Text;
+            totalDisplay.Text += btn7.Text;
         }
 
 
@@ -33,12 +33,12 @@ namespace Calculadora
 
         private void button2_Click(object sender, EventArgs e)
         {
-            totalDisplay.Text += button2.Text;
+            totalDisplay.Text += btn8.Text;
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            totalDisplay.Text += button3.Text;
+            totalDisplay.Text += btn9.Text;
         }
 
         private void button17_Click(object sender, EventArgs e)
@@ -54,40 +54,41 @@ namespace Calculadora
 
         private void button8_Click(object sender, EventArgs e)
         {
-            totalDisplay.Text += button8.Text;
+            totalDisplay.Text += btn6.Text;
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            totalDisplay.Text += button7.Text;
+            totalDisplay.Text += btn5.Text;
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            totalDisplay.Text += button6.Text;
+            totalDisplay.Text += btn4.Text;
         }
 
         private void button12_Click(object sender, EventArgs e)
         {
-            totalDisplay.Text += button12.Text;
+            totalDisplay.Text += btn3.Text;
         }
 
         private void button11_Click(object sender, EventArgs e)
         {
-            totalDisplay.Text += button11.Text;
+            totalDisplay.Text += btn2.Text;
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
-            totalDisplay.Text += button10.Text;
+            totalDisplay.Text += btn1.Text;
         }
 
         private void button16_Click(object sender, EventArgs e)
         {
-            if (totalDisplay.Text == "" || totalDisplay.Text.Length > 0)
+            if (totalDisplay.Text == "" || !(totalDisplay.Text.StartsWith("0") && totalDisplay.Text.Length > 0))
             {
-                totalDisplay.Text += button16.Text;
+                totalDisplay.Text += btn0.Text;
             }
+            else { return; }
 
             return;
         }
@@ -176,7 +177,7 @@ namespace Calculadora
                             break;
                     }
 
-                    totalDisplay.Text = operation == "/" ? resultDouble.ToString() : result.ToString();
+                    totalDisplay.Text = operation == "/" ? Math.Round(resultDouble, 3).ToString() : result.ToString();
                     //totalDisplay.Text = result.ToString();
                 }
 
@@ -218,6 +219,10 @@ namespace Calculadora
                 num1 = int.Parse(totalDisplay.Text);
                 totalDisplay.Text = String.Empty;
                 operation = substract.Text;
+            }
+            else if (!totalDisplay.Text.Contains("-"))
+            {
+                totalDisplay.Text = "-";
             }
 
             return;

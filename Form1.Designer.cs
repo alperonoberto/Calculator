@@ -29,23 +29,23 @@
         private void InitializeComponent()
         {
             totalDisplay = new TextBox();
-            button1 = new Button();
+            btn7 = new Button();
             clear = new Button();
-            button2 = new Button();
-            button3 = new Button();
+            btn8 = new Button();
+            btn9 = new Button();
             div = new Button();
             mult = new Button();
-            button6 = new Button();
-            button7 = new Button();
-            button8 = new Button();
+            btn4 = new Button();
+            btn5 = new Button();
+            btn6 = new Button();
             substract = new Button();
-            button10 = new Button();
-            button11 = new Button();
-            button12 = new Button();
+            btn1 = new Button();
+            btn2 = new Button();
+            btn3 = new Button();
             calc = new Button();
             add = new Button();
-            button15 = new Button();
-            button16 = new Button();
+            btnComma = new Button();
+            btn0 = new Button();
             SuspendLayout();
             // 
             // totalDisplay
@@ -62,16 +62,16 @@
             totalDisplay.TextAlign = HorizontalAlignment.Right;
             totalDisplay.TextChanged += textBox1_TextChanged;
             // 
-            // button1
+            // btn7
             // 
-            button1.Font = new Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point);
-            button1.Location = new Point(12, 92);
-            button1.Name = "button1";
-            button1.Size = new Size(67, 66);
-            button1.TabIndex = 1;
-            button1.Text = "7";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            btn7.Font = new Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point);
+            btn7.Location = new Point(12, 92);
+            btn7.Name = "btn7";
+            btn7.Size = new Size(67, 66);
+            btn7.TabIndex = 1;
+            btn7.Text = "7";
+            btn7.UseVisualStyleBackColor = true;
+            btn7.Click += button1_Click;
             // 
             // clear
             // 
@@ -84,27 +84,27 @@
             clear.UseVisualStyleBackColor = true;
             clear.Click += button17_Click;
             // 
-            // button2
+            // btn8
             // 
-            button2.Font = new Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point);
-            button2.Location = new Point(85, 92);
-            button2.Name = "button2";
-            button2.Size = new Size(67, 66);
-            button2.TabIndex = 18;
-            button2.Text = "8";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
+            btn8.Font = new Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point);
+            btn8.Location = new Point(85, 92);
+            btn8.Name = "btn8";
+            btn8.Size = new Size(67, 66);
+            btn8.TabIndex = 18;
+            btn8.Text = "8";
+            btn8.UseVisualStyleBackColor = true;
+            btn8.Click += button2_Click;
             // 
-            // button3
+            // btn9
             // 
-            button3.Font = new Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point);
-            button3.Location = new Point(158, 92);
-            button3.Name = "button3";
-            button3.Size = new Size(67, 66);
-            button3.TabIndex = 19;
-            button3.Text = "9";
-            button3.UseVisualStyleBackColor = true;
-            button3.Click += button3_Click;
+            btn9.Font = new Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point);
+            btn9.Location = new Point(158, 92);
+            btn9.Name = "btn9";
+            btn9.Size = new Size(67, 66);
+            btn9.TabIndex = 19;
+            btn9.Text = "9";
+            btn9.UseVisualStyleBackColor = true;
+            btn9.Click += button3_Click;
             // 
             // div
             // 
@@ -128,38 +128,38 @@
             mult.UseVisualStyleBackColor = true;
             mult.Click += button5_Click;
             // 
-            // button6
+            // btn4
             // 
-            button6.Font = new Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point);
-            button6.Location = new Point(158, 164);
-            button6.Name = "button6";
-            button6.Size = new Size(67, 66);
-            button6.TabIndex = 23;
-            button6.Text = "4";
-            button6.UseVisualStyleBackColor = true;
-            button6.Click += button6_Click;
+            btn4.Font = new Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point);
+            btn4.Location = new Point(158, 164);
+            btn4.Name = "btn4";
+            btn4.Size = new Size(67, 66);
+            btn4.TabIndex = 23;
+            btn4.Text = "4";
+            btn4.UseVisualStyleBackColor = true;
+            btn4.Click += button6_Click;
             // 
-            // button7
+            // btn5
             // 
-            button7.Font = new Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point);
-            button7.Location = new Point(85, 164);
-            button7.Name = "button7";
-            button7.Size = new Size(67, 66);
-            button7.TabIndex = 22;
-            button7.Text = "5";
-            button7.UseVisualStyleBackColor = true;
-            button7.Click += button7_Click;
+            btn5.Font = new Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point);
+            btn5.Location = new Point(85, 164);
+            btn5.Name = "btn5";
+            btn5.Size = new Size(67, 66);
+            btn5.TabIndex = 22;
+            btn5.Text = "5";
+            btn5.UseVisualStyleBackColor = true;
+            btn5.Click += button7_Click;
             // 
-            // button8
+            // btn6
             // 
-            button8.Font = new Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point);
-            button8.Location = new Point(12, 164);
-            button8.Name = "button8";
-            button8.Size = new Size(67, 66);
-            button8.TabIndex = 21;
-            button8.Text = "6";
-            button8.UseVisualStyleBackColor = true;
-            button8.Click += button8_Click;
+            btn6.Font = new Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point);
+            btn6.Location = new Point(12, 164);
+            btn6.Name = "btn6";
+            btn6.Size = new Size(67, 66);
+            btn6.TabIndex = 21;
+            btn6.Text = "6";
+            btn6.UseVisualStyleBackColor = true;
+            btn6.Click += button8_Click;
             // 
             // substract
             // 
@@ -172,38 +172,38 @@
             substract.UseVisualStyleBackColor = true;
             substract.Click += substract_Click;
             // 
-            // button10
+            // btn1
             // 
-            button10.Font = new Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point);
-            button10.Location = new Point(158, 236);
-            button10.Name = "button10";
-            button10.Size = new Size(67, 66);
-            button10.TabIndex = 27;
-            button10.Text = "1";
-            button10.UseVisualStyleBackColor = true;
-            button10.Click += button10_Click;
+            btn1.Font = new Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point);
+            btn1.Location = new Point(158, 236);
+            btn1.Name = "btn1";
+            btn1.Size = new Size(67, 66);
+            btn1.TabIndex = 27;
+            btn1.Text = "1";
+            btn1.UseVisualStyleBackColor = true;
+            btn1.Click += button10_Click;
             // 
-            // button11
+            // btn2
             // 
-            button11.Font = new Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point);
-            button11.Location = new Point(85, 236);
-            button11.Name = "button11";
-            button11.Size = new Size(67, 66);
-            button11.TabIndex = 26;
-            button11.Text = "2";
-            button11.UseVisualStyleBackColor = true;
-            button11.Click += button11_Click;
+            btn2.Font = new Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point);
+            btn2.Location = new Point(85, 236);
+            btn2.Name = "btn2";
+            btn2.Size = new Size(67, 66);
+            btn2.TabIndex = 26;
+            btn2.Text = "2";
+            btn2.UseVisualStyleBackColor = true;
+            btn2.Click += button11_Click;
             // 
-            // button12
+            // btn3
             // 
-            button12.Font = new Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point);
-            button12.Location = new Point(12, 236);
-            button12.Name = "button12";
-            button12.Size = new Size(67, 66);
-            button12.TabIndex = 25;
-            button12.Text = "3";
-            button12.UseVisualStyleBackColor = true;
-            button12.Click += button12_Click;
+            btn3.Font = new Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point);
+            btn3.Location = new Point(12, 236);
+            btn3.Name = "btn3";
+            btn3.Size = new Size(67, 66);
+            btn3.TabIndex = 25;
+            btn3.Text = "3";
+            btn3.UseVisualStyleBackColor = true;
+            btn3.Click += button12_Click;
             // 
             // calc
             // 
@@ -227,52 +227,54 @@
             add.UseVisualStyleBackColor = true;
             add.Click += add_Click;
             // 
-            // button15
+            // btnComma
             // 
-            button15.Font = new Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point);
-            button15.Location = new Point(85, 308);
-            button15.Name = "button15";
-            button15.Size = new Size(67, 66);
-            button15.TabIndex = 30;
-            button15.Text = ",";
-            button15.UseVisualStyleBackColor = true;
-            button15.Click += button15_Click;
+            btnComma.Font = new Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point);
+            btnComma.Location = new Point(85, 308);
+            btnComma.Name = "btnComma";
+            btnComma.Size = new Size(67, 66);
+            btnComma.TabIndex = 30;
+            btnComma.Text = ",";
+            btnComma.UseVisualStyleBackColor = true;
+            btnComma.Click += button15_Click;
             // 
-            // button16
+            // btn0
             // 
-            button16.Font = new Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point);
-            button16.Location = new Point(12, 308);
-            button16.Name = "button16";
-            button16.Size = new Size(67, 66);
-            button16.TabIndex = 29;
-            button16.Text = "0";
-            button16.UseVisualStyleBackColor = true;
-            button16.Click += button16_Click;
+            btn0.Font = new Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point);
+            btn0.Location = new Point(12, 308);
+            btn0.Name = "btn0";
+            btn0.Size = new Size(67, 66);
+            btn0.TabIndex = 29;
+            btn0.Text = "0";
+            btn0.UseVisualStyleBackColor = true;
+            btn0.Click += button16_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.InactiveCaption;
             ClientSize = new Size(309, 450);
             Controls.Add(calc);
             Controls.Add(add);
-            Controls.Add(button15);
-            Controls.Add(button16);
+            Controls.Add(btnComma);
+            Controls.Add(btn0);
             Controls.Add(substract);
-            Controls.Add(button10);
-            Controls.Add(button11);
-            Controls.Add(button12);
+            Controls.Add(btn1);
+            Controls.Add(btn2);
+            Controls.Add(btn3);
             Controls.Add(mult);
-            Controls.Add(button6);
-            Controls.Add(button7);
-            Controls.Add(button8);
+            Controls.Add(btn4);
+            Controls.Add(btn5);
+            Controls.Add(btn6);
             Controls.Add(div);
-            Controls.Add(button3);
-            Controls.Add(button2);
+            Controls.Add(btn9);
+            Controls.Add(btn8);
             Controls.Add(clear);
-            Controls.Add(button1);
+            Controls.Add(btn7);
             Controls.Add(totalDisplay);
-            FormBorderStyle = FormBorderStyle.FixedToolWindow;
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Calculadora";
@@ -284,22 +286,22 @@
         #endregion
 
         private TextBox totalDisplay;
-        private Button button1;
+        private Button btn7;
         private Button clear;
-        private Button button2;
-        private Button button3;
+        private Button btn8;
+        private Button btn9;
         private Button div;
         private Button mult;
-        private Button button6;
-        private Button button7;
-        private Button button8;
+        private Button btn4;
+        private Button btn5;
+        private Button btn6;
         private Button substract;
-        private Button button10;
-        private Button button11;
-        private Button button12;
+        private Button btn1;
+        private Button btn2;
+        private Button btn3;
         private Button calc;
         private Button add;
-        private Button button15;
-        private Button button16;
+        private Button btnComma;
+        private Button btn0;
     }
 }
